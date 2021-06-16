@@ -45,19 +45,18 @@
         app:layout_constraintBottom_toTopOf="@+id/idLogout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/idLogout"
         android:layout_width="211dp"
         android:layout_height="50dp"
         android:layout_marginBottom="116dp"
-        android:text="Logout"
         android:background="#FF6376"
-        android:textColor="#FFFFFF"
-
+        android:text="Logout"
         android:textAllCaps="false"
+
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
